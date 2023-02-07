@@ -27,40 +27,51 @@
   background-image: url("../../assets/images/sun.webp");
   background-repeat: no-repeat;
   height: 1080px;
-  padding: 660px;
-  padding-top: 200px;
-  padding-left: 600px;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
 }
 
 .back {
   background-image: url("../../assets/images/back.jpg");
-  background-color: #4d2a1b!important;
+  background-color: #4d2a1b !important;
   padding: 100px;
-  box-shadow: 15px 25px 55px ;
+  box-shadow: 15px 25px 55px;
+  width: 640px;
 }
 
 .font {
-  font-family: 'Bebas Neue', cursive!important;
+  font-family: 'Bebas Neue', cursive !important;
   color: white;
 }
 
 h1 {
-padding-bottom: 50px;
-text-align: center;
-font-size: 55px;
-color: white;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 55px;
+  color: white;
 }
 
 .button {
   background-image: url("../../assets/images/green.webp");
-  background-color: green!important;
-  color: white!important;
+  background-color: green !important;
+  color: white !important;
 }
 
 .crp {
   width: 100px;
 }
 
+@media screen and (max-width: 766px) {
+  .back {
+    padding: 50px;
+    width: 380px;
+  }
 
-
+  .mat {
+    height: 850px;
+    padding-top: 155px;
+  }
+}

@@ -19,3 +19,23 @@
     margin-right: 10px!important;
     border: none;
 }
+
+.fill {
+    color: white!important;
+   }
+
+   .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
+    background-color: #157a21;
+    color: #fff;
+}
+
+@media screen and (max-width: 766px) {
+   .get {
+    height: 1000px;
+    padding-top: 400px;
+   }
+
+   .fill {
+    color: white!important;
+   }
+ }

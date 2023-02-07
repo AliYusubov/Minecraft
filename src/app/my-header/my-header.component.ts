@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-header.component.scss']
 })
 export class MyHeaderComponent {
+  showFiller = false;
 
 }
+
+

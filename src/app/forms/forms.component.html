@@ -1,11 +1,11 @@
 <div class="mat">
 
   <div class="container back">
-   <h1 class="font">Log In</h1>
+   <h1 class="font">Sign In</h1>
     <form [formGroup]="exampleForm" (ngSubmit)="onSubmit(exampleForm.value)" class="form">
 
       <mat-form-field class="form-element">
-        <input matInput placeholder="Name" formControlName="name">
+        <input matInput placeholder="Name" formControlName="name" class="formm">
         <mat-error *ngIf="!exampleForm.controls['name'].valid && exampleForm.controls['name'].touched">
           Field is Required
         </mat-error>
@@ -27,7 +27,7 @@
       </mat-form-field>
 
       <div class="form-element">
-        <button mat-raised-button color="" type="submit" class="button font" [disabled]="!exampleForm.valid" routerLink="/game">Submit
+        <button mat-raised-button color="" type="submit" class="button font" [disabled]="!exampleForm.valid" routerLink="/get">Submit
           
           Form</button>
       </div>

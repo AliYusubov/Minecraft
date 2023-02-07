@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 
 export class MyHomeComponent {
   panelOpenState = false;
+  showFiller = false;
+
 }
 
 
